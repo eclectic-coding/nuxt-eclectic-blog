@@ -16,7 +16,7 @@ There are three main goals for this future release.
 - Concurrency: implementing “Ractors” (“Ruby Actors”) — similar to the way JavaScript offers background “web worker” scripts.
 - Being Correct: Ruby 3 will ship with type signatures for its core libraries, available both for type checking as well as for enhancing future IDEs.
 
-# New Hash method
+## New Hash method
 Ruby 3 will add a new method for a hash `#except`, which returns a new hash.
 
 Assuming the hash: `{food: "Burger", beverage: "Coffee", fries: "large"}`, in Rails 6, we can exclude an item like so:
@@ -31,7 +31,7 @@ Currently in the latest version of Ruby, you can use `slice` to build the new ha
 ```
 and it returns the hash: `{food: "Burger", beverage: "Coffee"}`
 
-***Ruby 3**
+**Ruby 3**
 
 Now with Ruby 3, you can use the new `#except` method: `{food: "Burger", beverage: "Coffee", fries: "large"}.except(:fries)`
 

@@ -9,14 +9,18 @@
           :key="article.slug"
           class="xs:w-full md:w-1/2 px-2 xs:mb-6 md:mb-12 article-card"
         >
-          <img
-            v-if="article.cover_image"
-            :src="article.cover_image"
-            alt="article.cover_image"
-          />
-          <h2 class="font-bold">{{ article.title }}</h2>
-          <p class="text-sm">{{ formatDate(article.createdAt) }}</p>
-          <p class="text-gray-600 text-sm">{{ article.description }}</p>
+          <NuxtLink
+            :to="{ name: 'articles-slug', params: { slug: article.slug } }"
+          >
+            <img
+              v-if="article.cover_image"
+              :src="article.cover_image"
+              alt="article.cover_image"
+            />
+            <h2 class="font-bold">{{ article.title }}</h2>
+            <p class="text-sm">{{ formatDate(article.createdAt) }}</p>
+            <p class="text-gray-600 text-sm">{{ article.description }}</p>
+          </NuxtLink>
         </li>
       </ul>
     </div>
