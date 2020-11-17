@@ -1,36 +1,21 @@
 <template>
-  <main>
-    <TheHeader />
+  <div class="m-8">
+    Articles
 
-    <div class="mx-auto">
-      <ul class="flex flex-col justify-center items-center">
-        <li
-          v-for="article in articles.slice(0, 6)"
-          :key="article.slug"
-          class="xs:w-full md:w-1/2 px-2 xs:mb-6 md:mb-12 article-card"
-        >
-          <img
-            v-if="article.cover_image"
-            :src="article.cover_image"
-            alt="article.cover_image"
-          />
-          <h2 class="font-bold">{{ article.title }}</h2>
-          <p class="text-sm">{{ formatDate(article.createdAt) }}</p>
-          <p class="text-gray-600 text-sm">{{ article.description }}</p>
-        </li>
-      </ul>
-    </div>
-  </main>
+    <ul>
+      <li v-for="article in articles" :key="article.slug">
+        {{ article.title }}
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
-import TheHeader from '@/components/TheHeader'
 export default {
-  components: { TheHeader },
   async asyncData({ $content, params }) {
     const articles = await $content('articles', params.slug)
-      .only(['title', 'description', 'slug', 'cover_image', 'createdAt'])
-      .sortBy('createdAt', 'desc')
+      .only(['title', 'description', 'slug', 'cover_image'])
+      .sortBy('createdAt', 'asc')
       .fetch()
     return { articles }
   },
