@@ -59,8 +59,4 @@ class SenatorsController < ApplicationController
 ## Improvements
 With each search the entire page re-renders. So next week we will look at how I set up StimulusJS to make the Senator container reactive.
 
-## Footnote
 
-This has been fun. Leave a comment or send me a DM on [Twitter](http://twitter.com/EclecticCoding).
-
-Shameless Plug: If you work at a great company, and you are in the market for a Software Developer with a varied skill set and life experiences, send me a message on [Twitter](http://twitter.com/EclecticCoding) and check out my [LinkedIn](http://www.linkedin.com/in/dev-chuck-smith).

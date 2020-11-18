@@ -46,11 +46,7 @@ It worked perfectly.
 
 I know this is a shorter article but I am just starting. Pay attention as I document the journey through this tutorial and the enhancements along the way. 
 
-## Footnote
 
-This has been fun. Leave a comment or send me a DM on [Twitter](http://twitter.com/EclecticCoding).
-
-Shameless Plug: If you work at a great company and you are in the market for a Software Developer with a varied skill set and life experiences, send me a message on [Twitter](http://twitter.com/EclecticCoding) and check out my [LinkedIn](http://www.linkedin.com/in/dev-chuck-smith).
 
 
 [REPO]: https://github.com/eclectic-coding/overtime_app

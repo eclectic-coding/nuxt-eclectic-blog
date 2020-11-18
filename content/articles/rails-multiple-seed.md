@@ -25,8 +25,4 @@ end
 ```
 Now, when you run the seed command, it will parse through all of your files and print to the command line exactly which file is loading.
 
-## Footnote
 
-This has been fun. Leave a comment or send me a DM on [Twitter](http://twitter.com/EclecticCoding).
-
-Shameless Plug: If you work at a great company, and you are in the market for a Software Developer with a varied skill set and life experiences, send me a message on [Twitter](http://twitter.com/EclecticCoding) and check out my [LinkedIn](http://www.linkedin.com/in/dev-chuck-smith).

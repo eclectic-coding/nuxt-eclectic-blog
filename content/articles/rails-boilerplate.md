@@ -123,7 +123,4 @@ Finally, there is a new feature coming to the `rails new` command to create a mi
 
 When fully deployed, this will be a nice feature to have for streamlining the workflow.
 
-## Footnote
-This has been fun. Leave a comment or send me a DM on [Twitter](http://twitter.com/EclecticCoding).
 
-Shameless Plug: If you work at a great company and you are in the market for a Software Developer with a varied skill set and life experiences, send me a message on [Twitter](http://twitter.com/EclecticCoding) and check out my [LinkedIn](http://www.linkedin.com/in/dev-chuck-smith).

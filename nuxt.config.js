@@ -1,6 +1,7 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
+    htmlAttrs: { lang: 'en' },
     title: 'eclectic-saddlebag-blog',
     meta: [
       { charset: 'utf-8' },

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TheHeader />
+    <TheNavBar />
 
     <article class="mx-auto w-4/5 p-10">
       <h1 class="text-4xl font-bold">{{ article.title }}</h1>
@@ -15,8 +15,24 @@
           >
         </span>
       </p>
+
+      <nav class="mt-4 ml-4">
+        <ul class="list-disc">
+          <li
+            v-for="link of article.toc"
+            :key="link.id"
+            class="hover:underline"
+            :class="{ 'py-1': link.depth === 2, 'ml-2 pb-2': link.depth === 3 }"
+          >
+            <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
+          </li>
+        </ul>
+      </nav>
       <nuxt-content class="mt-8" :document="article" />
+
+      <ShamelessPlug />
     </article>
+    <TheFooter />
   </div>
 </template>
 

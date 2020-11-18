@@ -63,7 +63,4 @@ So, the complete logic is:
 ```
 After I figured this out, I can tell you I am liking HAML even more. I am finding it to be a concise elegant way of developing views in Rails.
 
-## Footnote
-This has been fun. Leave a comment or send me a DM on [Twitter](http://twitter.com/EclecticCoding).
 
-Shameless Plug: If you work at a great company and you are in the market for a Software Developer with a varied skill set and life experiences, send me a message on [Twitter](http://twitter.com/EclecticCoding) and check out my [LinkedIn](http://www.linkedin.com/in/dev-chuck-smith).

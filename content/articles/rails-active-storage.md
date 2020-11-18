@@ -232,8 +232,4 @@ Originally, I had placeholder paths in the Navbar, so we revisit to make the lin
 ## Not Perfect
 So, this solution is not entirely practical. I do not like the approach where we are displaying a blank space if the avatar does not exist. In the next article we will build on this feature by using the users [Gravatar](https://en.gravatar.com/) as an optional or fallback image.
 
-## Footnote
 
-This has been fun. Leave a comment or send me a DM on [Twitter](http://twitter.com/EclecticCoding).
-
-Shameless Plug: If you work at a great company and you are in the market for a Software Developer with a varied skill set and life experiences, send me a message on [Twitter](http://twitter.com/EclecticCoding) and check out my [LinkedIn](http://www.linkedin.com/in/dev-chuck-smith).

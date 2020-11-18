@@ -1,11 +1,12 @@
 <template>
   <main>
-    <TheHeader />
+    <TheNavBar />
+    <TheHero />
 
     <div class="mx-auto">
       <ul class="flex flex-col justify-center items-center">
         <li
-          v-for="article in articles.slice(0, 6)"
+          v-for="article in articles.slice(0, 3)"
           :key="article.slug"
           class="xs:w-full md:w-1/2 px-2 xs:mb-6 md:mb-12 article-card"
         >
@@ -19,18 +20,18 @@
             />
             <h2 class="font-bold">{{ article.title }}</h2>
             <p class="text-sm">{{ formatDate(article.createdAt) }}</p>
-            <p class="text-gray-600 text-sm">{{ article.description }}</p>
+            <p class="text-gray-700 text-sm">{{ article.description }}</p>
           </NuxtLink>
         </li>
       </ul>
     </div>
+
+    <TheFooter />
   </main>
 </template>
 
 <script>
-import TheHeader from '@/components/TheHeader'
 export default {
-  components: { TheHeader },
   async asyncData({ $content, params }) {
     const articles = await $content('articles', params.slug)
       .only(['title', 'description', 'slug', 'cover_image', 'createdAt'])
