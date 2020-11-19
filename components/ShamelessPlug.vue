@@ -4,13 +4,16 @@
   >
     <h2 class="font-semibold text-3xl">Footnote</h2>
     <p class="mb-4">
-      This has been fun. Leave a comment or send me a DM on Twitter.
+      This has been fun. Send me a DM on
+      <a href="https://twitter.com/EclecticCoding">Twitter</a>.
     </p>
 
     <p>
       <strong>Shameless Plug</strong>: If you work at a great company, and you
       are in the market for a Software Developer with a varied skill set and
-      life experiences, send me a message on Twitter and check out my LinkedIn.
+      life experiences, send me a message on
+      <a href="https://twitter.com/EclecticCoding">Twitter</a> and check out my
+      <a href="https://www.linkedin.com/in/dev-chuck-smith/">LinkedIn</a>.
     </p>
   </section>
 </template>
