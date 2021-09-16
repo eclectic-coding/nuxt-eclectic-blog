@@ -35,7 +35,7 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "fibers": "^5.0.0",
-    "prettier": "^2.4.0",
+    "prettier": "^2.4.1",
     "sass": "^1.41.0",
     "sass-loader": "^12.1.0",
     "stylelint": "^13.13.1",
