@@ -1752,19 +1752,19 @@
     node-html-parser "^6.1.4"
     ufo "^1.0.1"
 
-"@nuxt/kit@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.1.1.tgz#7641afe192297db02d3585234e9d2a71caf164df"
-  integrity sha512-wmqVCIuD/te6BKf3YiqWyMumKI5JIpkiv0li/1Y3QHnTkoxyIhLkbFgNcQHuBxJ3eMlk2UjAjAqWiqBHTX54vQ==
+"@nuxt/kit@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.2.0.tgz#d770e7f087f43d0030f84259671b8f6a5ea0b59d"
+  integrity sha512-Otb1S/08tDxbpeQYLMynjr2TX7ssU1ynbWDpVzFzLBdfHkGWHXpIhJr+0u3LdnPUBw6C/xPXe7fd7RuXI9avoA==
   dependencies:
-    "@nuxt/schema" "3.1.1"
+    "@nuxt/schema" "3.2.0"
     c12 "^1.1.0"
     consola "^2.15.3"
     defu "^6.1.2"
     globby "^13.1.3"
     hash-sum "^2.0.0"
     ignore "^5.2.4"
-    jiti "^1.16.2"
+    jiti "^1.17.0"
     knitwork "^1.0.0"
     lodash.template "^4.5.0"
     mlly "^1.1.0"
@@ -1773,7 +1773,7 @@
     scule "^1.0.0"
     semver "^7.3.8"
     unctx "^2.1.1"
-    unimport "^2.0.1"
+    unimport "^2.2.4"
     untyped "^1.2.2"
 
 "@nuxt/loading-screen@^2.0.4":
@@ -1810,23 +1810,23 @@
     postcss-url "^10.1.1"
     semver "^7.3.4"
 
-"@nuxt/schema@3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.1.1.tgz#c45f67f245a117f99b028d98f259cce4c740ffa7"
-  integrity sha512-/KuoCDVGrLD9W7vwuYhu4HbdT/BpbrhA4Pm9dGn7Jah40kHDGqUnJxugvMjt+4suq53rLQyTA0LRDWfFxfxAOQ==
+"@nuxt/schema@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.2.0.tgz#b1e072515db70b8f921b7d6f597f91b6f42573e8"
+  integrity sha512-tz9RandI5LgbT9BQ8dE8n4kItV7+4OUgbX42YemcGbtORVJAWJJvQyHGikJ5akUgiTFYTV8tjV6pRPH9Txx0Pg==
   dependencies:
     c12 "^1.1.0"
     create-require "^1.1.1"
     defu "^6.1.2"
     hookable "^5.4.2"
-    jiti "^1.16.2"
+    jiti "^1.17.0"
     pathe "^1.1.0"
     pkg-types "^1.0.1"
     postcss-import-resolver "^2.0.0"
     scule "^1.0.0"
-    std-env "^3.3.1"
+    std-env "^3.3.2"
     ufo "^1.0.1"
-    unimport "^2.0.1"
+    unimport "^2.2.4"
     untyped "^1.2.2"
 
 "@nuxt/server@2.16.0":
@@ -2043,12 +2043,12 @@
     consola "^2.15.3"
     stylelint-webpack-plugin "^2.3.1"
 
-"@nuxtjs/tailwindcss@^6.3.1":
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-6.3.1.tgz#2bc8b94389ef8e717b6091f372625d147b4c443e"
-  integrity sha512-UH8GwAGPty+OFiaIQeNIWdSOOqS7pThqN11RmRjigi5xBOVg2LpO0HtrOhcKn7v9+IwuXPWK67m067lNB4HITQ==
+"@nuxtjs/tailwindcss@^6.4.0":
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-6.4.0.tgz#c0ba563bcfe276e43e6cb264258de02a526d4c87"
+  integrity sha512-JLCmoaOvk+cY972Oz0UBiSx8rhjYTB2bFydN3AebJN5y1G/8HLugN6m4LANQu6df1rAaRYpdXF0LGlrLsxPXDQ==
   dependencies:
-    "@nuxt/kit" "^3.1.1"
+    "@nuxt/kit" "^3.2.0"
     "@nuxt/postcss8" "^1.1.3"
     autoprefixer "^10.4.13"
     chalk "^5.2.0"
@@ -2058,10 +2058,10 @@
     defu "^6.1.2"
     pathe "^1.1.0"
     postcss "^8.4.21"
-    postcss-custom-properties "^13.1.0"
-    postcss-nesting "^11.0.0"
+    postcss-custom-properties "^13.1.3"
+    postcss-nesting "^11.1.0"
     tailwind-config-viewer "^1.7.2"
-    tailwindcss "^3.2.4"
+    tailwindcss "^3.2.6"
     ufo "^1.0.1"
 
 "@nuxtjs/youch@^4.2.3":
@@ -7093,6 +7093,11 @@ jiti@^1.16.2:
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.16.2.tgz#75f7a0a8fde4a0e57e576f7d329491d588db89cf"
   integrity sha512-OKBOVWmU3FxDt/UH4zSwiKPuc1nihFZiOD722FuJlngvLz2glX1v2/TJIgoA4+mrpnXxHV6dSAoCvPcYQtoG5A==
 
+jiti@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.17.0.tgz#9a4e1787b9d83e594a5ad27cdf9c9ab555112ac1"
+  integrity sha512-CByzPgFqYoB9odEeef7GNmQ3S5THIBOtzRYoSCya2Sv27AuQxy2jgoFjQ6VTF53xsq1MXRm+YWNvOoDHUAteOw==
+
 js-sdsl@^4.1.4:
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/js-sdsl/-/js-sdsl-4.1.4.tgz#78793c90f80e8430b7d8dc94515b6c77d98a26a6"
@@ -9145,6 +9150,16 @@ postcss-custom-properties@^13.1.0:
     "@csstools/css-tokenizer" "^2.0.0"
     postcss-value-parser "^4.2.0"
 
+postcss-custom-properties@^13.1.3:
+  version "13.1.3"
+  resolved "https://registry.yarnpkg.com/postcss-custom-properties/-/postcss-custom-properties-13.1.3.tgz#bee287086290cb03958c223576dc8fe81d0aa253"
+  integrity sha512-15equAsfqtnr7jyzes6vyaGdAiNmKd+50FZ35/E/huBNBt7PgGMSNL/4o765nnNoP2dmaMJklb3FwJf3fdRcpA==
+  dependencies:
+    "@csstools/cascade-layer-name-parser" "^1.0.0"
+    "@csstools/css-parser-algorithms" "^2.0.0"
+    "@csstools/css-tokenizer" "^2.0.0"
+    postcss-value-parser "^4.2.0"
+
 postcss-custom-selectors@^7.1.0:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/postcss-custom-selectors/-/postcss-custom-selectors-7.1.1.tgz#32f14dc78a6183b91ec28a1933271e34e5089a92"
@@ -9411,6 +9426,14 @@ postcss-nesting@^11.0.0:
   version "11.0.0"
   resolved "https://registry.yarnpkg.com/postcss-nesting/-/postcss-nesting-11.0.0.tgz#cd5185e63d22302b7855d8ad0f51ece33e1cb5e3"
   integrity sha512-Y+jmDpQuSSoM/Qq+rqDc4D3E8Cn84qUmJLFS/M5u0YgM+5adLi9qFApbz5XzjzXjGAzItTUCP7RikLGy06ebiA==
+  dependencies:
+    "@csstools/selector-specificity" "^2.0.0"
+    postcss-selector-parser "^6.0.10"
+
+postcss-nesting@^11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/postcss-nesting/-/postcss-nesting-11.1.0.tgz#f7c5cd61de639df35653dcb987d99d018720399a"
+  integrity sha512-TVBCeKlUmMyX3sNeSg10yATb2XmAoosp0E1zdlpjrD+L2FrQPmrRTxlRFQh/R0Y4WlQ0butfDwRhzlYuj7y/TA==
   dependencies:
     "@csstools/selector-specificity" "^2.0.0"
     postcss-selector-parser "^6.0.10"
@@ -9701,16 +9724,7 @@ postcss@7.x.x, postcss@^7.0.14:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^8.1.10, postcss@^8.2.8:
-  version "8.2.8"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.8.tgz#0b90f9382efda424c4f0f69a2ead6f6830d08ece"
-  integrity sha512-1F0Xb2T21xET7oQV9eKuctbM9S7BC0fetoHCc4H13z0PT6haiRLP4T0ZY4XWh7iLP0usgqykT6p9B2RtOf4FPw==
-  dependencies:
-    colorette "^1.2.2"
-    nanoid "^3.1.20"
-    source-map "^0.6.1"
-
-postcss@^8.2.1, postcss@^8.2.15, postcss@^8.4.14, postcss@^8.4.21:
+postcss@^8.0.9, postcss@^8.2.1, postcss@^8.2.15, postcss@^8.4.14, postcss@^8.4.21:
   version "8.4.21"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.21.tgz#c639b719a57efc3187b13a1d765675485f4134f4"
   integrity sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==
@@ -9719,14 +9733,14 @@ postcss@^8.2.1, postcss@^8.2.15, postcss@^8.4.14, postcss@^8.4.21:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-postcss@^8.4.18:
-  version "8.4.18"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.18.tgz#6d50046ea7d3d66a85e0e782074e7203bc7fbca2"
-  integrity sha512-Wi8mWhncLJm11GATDaQKobXSNEYGUHeQLiQqDFG1qQ5UTDPTEvKw0Xt5NsTpktGTwLps3ByrWsBrG0rB8YQ9oA==
+postcss@^8.1.10, postcss@^8.2.8:
+  version "8.2.8"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.8.tgz#0b90f9382efda424c4f0f69a2ead6f6830d08ece"
+  integrity sha512-1F0Xb2T21xET7oQV9eKuctbM9S7BC0fetoHCc4H13z0PT6haiRLP4T0ZY4XWh7iLP0usgqykT6p9B2RtOf4FPw==
   dependencies:
-    nanoid "^3.3.4"
-    picocolors "^1.0.0"
-    source-map-js "^1.0.2"
+    colorette "^1.2.2"
+    nanoid "^3.1.20"
+    source-map "^0.6.1"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -11395,10 +11409,10 @@ tailwind-config-viewer@^1.7.2:
     portfinder "^1.0.26"
     replace-in-file "^6.1.0"
 
-tailwindcss@^3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.2.4.tgz#afe3477e7a19f3ceafb48e4b083e292ce0dc0250"
-  integrity sha512-AhwtHCKMtR71JgeYDaswmZXhPcW9iuI9Sp2LvZPo9upDZ7231ZJ7eA9RaURbhpXGVlrjX4cFNlB4ieTetEb7hQ==
+tailwindcss@^3.2.6:
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.2.6.tgz#9bedbc744a4a85d6120ce0cc3db024c551a5c733"
+  integrity sha512-BfgQWZrtqowOQMC2bwaSNe7xcIjdDEgixWGYOd6AL0CbKHJlvhfdbINeAW76l1sO+1ov/MJ93ODJ9yluRituIw==
   dependencies:
     arg "^5.0.2"
     chokidar "^3.5.3"
@@ -11414,12 +11428,12 @@ tailwindcss@^3.2.4:
     normalize-path "^3.0.0"
     object-hash "^3.0.0"
     picocolors "^1.0.0"
-    postcss "^8.4.18"
+    postcss "^8.0.9"
     postcss-import "^14.1.0"
     postcss-js "^4.0.0"
     postcss-load-config "^3.1.4"
     postcss-nested "6.0.0"
-    postcss-selector-parser "^6.0.10"
+    postcss-selector-parser "^6.0.11"
     postcss-value-parser "^4.2.0"
     quick-lru "^5.1.1"
     resolve "^1.22.1"
@@ -11809,10 +11823,10 @@ unified@^9.2.1:
     trough "^1.0.0"
     vfile "^4.0.0"
 
-unimport@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/unimport/-/unimport-2.0.1.tgz#2a0e2bf90416d74d2287f64b3e00acd49b1781d6"
-  integrity sha512-hMeDspGrEcocahicTr0AQYUGes24FvJtOxk9QEjeEOGv+n1EdpsDiT6z8t209PWhemPg0T5w/ooTVhup2GdrFA==
+unimport@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/unimport/-/unimport-2.2.4.tgz#3d0c7fb354e54ba277e58725aac73fbebabee0c7"
+  integrity sha512-qMgmeEGqqrrmEtm0dqxMG37J6xBtrriqxq9hILvDb+e6l2F0yTnJomLoCCp0eghLR7bYGeBsUU5Y0oyiUYhViw==
   dependencies:
     "@rollup/pluginutils" "^5.0.2"
     escape-string-regexp "^5.0.0"
