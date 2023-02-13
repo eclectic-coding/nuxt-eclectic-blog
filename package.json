@@ -18,7 +18,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@nuxt/content": "^1.15.1",
-    "core-js": "^3.27.2",
+    "core-js": "^3.28.0",
     "nuxt": "^2.16.1",
     "nuxt-fontawesome": "^0.4.0",
     "prism-themes": "^1.9.0"
